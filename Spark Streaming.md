@@ -62,6 +62,7 @@ Figure 7 periodically job generator
 Figure 7 shows how the job generating module generate job periodically.
 DStreamGraph is responsible for setting BatchDuration variable and initialize input and output streaming. RecurringTimer class is a timer which in charge of generate new job. Executor takes in data stream and generate block. Then ReceiverTracker class generator through block id.
   ![Alt text](https://github.com/floatingtony/System-Lever-Optimization-of-Spark-Streaming/blob/master/Figure8.png)
+  
 Figure 8 flow chart of algorithm
 Figure 8 is a flow chart which shows how the next batch interval value is computed.
 
