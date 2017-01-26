@@ -64,6 +64,7 @@ DStreamGraph is responsible for setting BatchDuration variable and initialize in
   ![Alt text](https://github.com/floatingtony/System-Lever-Optimization-of-Spark-Streaming/blob/master/Figure8.png)
   
 Figure 8 flow chart of algorithm
+
 Figure 8 is a flow chart which shows how the next batch interval value is computed.
 
 ## （4）	Results of Dynamic Parameter Algorithm ##
